@@ -1,0 +1,73 @@
+.box{
+    width: 1400px;
+    height: 940px;
+    box-shadow: 0 4px 68px black;
+    background-color: #ffffff;
+    margin-top: 228px;
+    margin-bottom: 183px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Lato";
+}
+
+.article{
+    width: 1141px;
+    height: 500px;
+    padding-top: 140px;
+    padding-bottom: 120px;
+    padding-left: 121px;
+    padding-right: 138px;
+    margin-bottom: 39px;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: -0.09px;
+    color: #5D5D5D;
+    word-spacing: 4px;
+}
+
+.box h1{
+    color: black;
+    font-family: "Playfair Display";
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: -0.21px;
+}
+
+h1+p::first-letter{
+    color: black;
+    float: left;
+    font-family: "Playfair Display";
+    font-size: 110px;
+    margin: 1px 40px 0 2px;
+    line-height: 90px;
+}
+.quote{
+    font-size: 24px;
+    font-style: italic;
+    letter-spacing: -0.12px;
+    line-height: 34px;
+    margin-bottom: 39px;
+}
+.quote>p::before{
+    content: open-quote;
+    font-size: 60px;
+    line-height: 40px;
+    margin-right: 40px;
+}
+a.botton{
+    margin-left: 121px;
+    padding: 27px 75px;
+    border: 2px solid #eaa258;
+    color: #eaa258;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+    font-weight: bold;
+    background: white;
+    font-size: 18px;
+}
+.botton:hover{
+    color: white;
+    background-color: #eaa258;
+}
+
+
